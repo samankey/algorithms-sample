@@ -1,0 +1,24 @@
+{
+  "name": "algorithms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitest --watch",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts",
+    "fmt": "prettier -w .",
+    "new": "tsx scripts/new.mts",
+    "run": "tsx scripts/run.mts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
